@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/yiaredm/Interactive-rating-component)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution URL](https://github.com/yiaredm/Interactive-rating-component)
+- Live Site URL: [live site URL](https://yiaredm.github.io/Interactive-rating-component/)
 
 ## My process
 
