@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Overpass', sans-serif;
+  color: white;
+  background-color: hsl(216, 12%, 8%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.container {
+  background-color: hsl(213, 19%, 18%);
+  padding: 40px;
+  border-radius: 1rem;
+  max-width: 400px;
+}
+
+ .star img{
+  background-color:  hsl(213, 17%, 27%);
+  padding: 10px;
+  border-radius: 50%;
+  margin-bottom: 25px;
+}
+
+p {
+  font-size: 15px;
+  color: hsl(217, 12%, 63%);
+  margin: 20px 0;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul li button{
+  background-color: hsl(213, 17%, 27%);
+  width: 3rem;
+  height: 3rem;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  transition: all 500ms;
+}
+
+ul li button:hover {
+  background-color: hsl(25, 97%, 53%);
+  transition: all 500ms;
+}
+
+ul li button:focus {
+  background-color: hsl(217, 12%, 63%);
+}
+
+.submit {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.submit button {
+  padding: 11px 130px;
+  border-radius: 20px;
+  border: none;
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+  font-weight: bold;
+  letter-spacing: 2px;
+  transition: all 500ms;
+}
+
+.submit button:hover {
+  background-color: white;
+  color:  hsl(25, 97%, 53%);
+  transition: all 500ms;
+}
+
+.thank-you {
+  text-align: center;
+}
+
+.selection p{
+  color: hsl(25, 97%, 53%);
+  background-color: hsl(213, 17%, 27%);
+  padding: 5px;
+  margin: 20px 60px;
+  border-radius: 30px;
+}
+
+.hidden {
+  display: none;
+}
+
+@media (max-width: 400px) {
+  .container {
+    max-width: 350px;
+  }
+
+  .submit button {
+    padding: 11px 100px;
+  }
+
+  .selection p {
+    margin: 20px 0;
+  }
+}
+
+@media (max-width: 300px) {
+  .container {
+    max-width: 250px;
+    padding: 20px;
+}
+
+.submit button {
+  padding: 11px 70px;
+}
+
+ul li button {
+  width: 2rem;
+  height: 2rem;
+}
+}
